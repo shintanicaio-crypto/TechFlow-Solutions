@@ -30,7 +30,12 @@ Projeto desenvolvido para simular a atuação da **TechFlow Solutions** no desen
 
 ## Como Executar o Projeto
 
-1. **Crie e ative um ambiente virtual:**
+1.**entre na pastacorreta**
+```bash
+   cd techflow_task_manager_Final
+   ```
+
+2. **Crie e ative um ambiente virtual:**
    ```bash
    python -m venv .venv
    # Linux/macOS:
@@ -39,17 +44,17 @@ Projeto desenvolvido para simular a atuação da **TechFlow Solutions** no desen
    .venv\Scripts\Activate.ps1
    ```
 
-2. **Instale as dependências:**
+3. **Instale as dependências:**
    ```bash
    python -m pip install -r requirements.txt
    ```
 
-3. **Execute os testes automatizados:**
+4. **Execute os testes automatizados:**
    ```bash
    python -m pytest -v
    ```
 
-4. **Execute a aplicação web:**
+5. **Execute a aplicação web:**
    ```bash
    python -m src.app
    ```

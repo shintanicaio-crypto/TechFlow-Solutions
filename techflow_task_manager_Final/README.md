@@ -16,7 +16,6 @@ Projeto desenvolvido para simular a atuação da **TechFlow Solutions** no desen
 ## Estrutura do Repositório
 ```text
 ├── .github/workflows/ci.yml      # Pipeline de integração contínua (Pytest)
-├── docs/kanban_cards_exemplo.md  # Modelo de cards para o GitHub Projects
 ├── src/
 │   ├── __init__.py
 │   ├── app.py                    # Interface web Flask + endpoint JSON /api/tasks
